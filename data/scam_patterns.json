@@ -1,0 +1,114 @@
+[
+  {
+    "id": "sc001",
+    "category": "Lottery / Prize Scam",
+    "risk_level": "high",
+    "example": "Congratulations! Your number has won Rs 25,00,000 in the KBC WhatsApp Lucky Draw. To claim your prize, share your name, bank account number and pay a processing fee of Rs 5,000.",
+    "description": "Fake lottery, lucky draw, or prize-winning messages (often citing KBC, Coca-Cola, or a phone company) that ask the victim to pay a 'processing' or 'release' fee, or share bank details to claim a prize that does not exist."
+  },
+  {
+    "id": "sc002",
+    "category": "Job Offer Scam",
+    "risk_level": "high",
+    "example": "Part time job opportunity! Earn Rs 3000-5000 daily by just liking YouTube videos. No experience needed. Join our Telegram group and pay Rs 500 registration fee to start.",
+    "description": "Fake work-from-home or part-time job offers promising unrealistic daily income for simple tasks (liking videos, reviewing products), which require an upfront registration or 'training' fee."
+  },
+  {
+    "id": "sc003",
+    "category": "Banking / OTP Phishing",
+    "risk_level": "high",
+    "example": "Dear customer, your bank account will be suspended today. Click this link to verify your KYC immediately and share the OTP sent to your phone to keep your account active.",
+    "description": "Impersonation of a bank or telecom provider claiming the account/SIM will be blocked, pressuring the victim to click a link and share an OTP or PIN, which is then used to drain the account."
+  },
+  {
+    "id": "sc004",
+    "category": "Parcel / Customs Fee Scam",
+    "risk_level": "medium",
+    "example": "Your international parcel is held at customs. Pay a clearance fee of Rs 350 via this link to release your package immediately or it will be returned.",
+    "description": "A fake courier or customs message claiming a package is stuck and needs a small payment via an unofficial link to be released."
+  },
+  {
+    "id": "sc005",
+    "category": "Romance / Relationship Scam",
+    "risk_level": "high",
+    "example": "Hi dear, I feel we have a real connection even though we just met online. I'm stuck abroad and need $800 urgently for a medical emergency, can you help me, I'll pay you back.",
+    "description": "A stranger builds an emotional or romantic relationship over chat, then invents an urgent crisis (medical, travel, customs) to ask for money."
+  },
+  {
+    "id": "sc006",
+    "category": "Investment / Crypto Scam",
+    "risk_level": "high",
+    "example": "Our AI trading bot guarantees 300% returns in 7 days. Join our exclusive investment group and deposit crypto now, limited slots available!",
+    "description": "Promises of guaranteed, unrealistically high investment or crypto returns with urgency and social proof, designed to get victims to deposit money into a fraudulent platform."
+  },
+  {
+    "id": "sc007",
+    "category": "Family Emergency / Impersonation Scam",
+    "risk_level": "high",
+    "example": "Hi Mom, I lost my phone and this is my new number. I need you to transfer Rs 20,000 urgently, I'm in trouble and can't talk right now, please don't call, just message.",
+    "description": "An unknown number impersonates a family member claiming a lost phone and a sudden financial emergency, explicitly discouraging a phone call so the impersonation is not discovered."
+  },
+  {
+    "id": "sc008",
+    "category": "Loan App Scam",
+    "risk_level": "high",
+    "example": "Instant loan approved! Get up to Rs 50,000 in your account in 10 minutes, no documents needed. Just pay a small processing fee first and download our app.",
+    "description": "Fake instant loan offers with no documentation required, asking for an upfront processing fee or app permissions that are later used to harass or extort the borrower."
+  },
+  {
+    "id": "sc009",
+    "category": "Fake App / Malicious Link Scam",
+    "risk_level": "high",
+    "example": "New WhatsApp Gold update available with video calling and extra features! Download now: bit.ly/whatsapp-gold-update before it expires.",
+    "description": "Messages promoting a fake app update or exclusive feature that link to a malicious APK or phishing site outside the official app store."
+  },
+  {
+    "id": "sc010",
+    "category": "Sextortion Scam",
+    "risk_level": "critical",
+    "example": "I have recorded a video of you from your camera during a call. Pay Rs 15,000 in bitcoin within 24 hours or I will send it to all your contacts.",
+    "description": "Threats claiming to have compromising photos or videos of the victim, demanding urgent payment (often in crypto) to avoid the content being shared."
+  },
+  {
+    "id": "sc011",
+    "category": "Government Scheme Scam",
+    "risk_level": "medium",
+    "example": "Good news! You are eligible for a Rs 10,000 grant under the new government welfare scheme. Register with your Aadhaar and bank details on this link before it closes.",
+    "description": "Fake government benefit or subsidy schemes asking for national ID numbers and bank details through an unofficial link, used for identity theft."
+  },
+  {
+    "id": "sc012",
+    "category": "Utility Bill Disconnection Scam",
+    "risk_level": "medium",
+    "example": "Dear customer, your electricity will be disconnected tonight at 9:30 PM due to unpaid bill. Contact our officer immediately on this number to avoid disconnection.",
+    "description": "Impersonation of a utility company threatening immediate service disconnection to pressure quick payment or a callback to a scam number."
+  },
+  {
+    "id": "sc013",
+    "category": "Tech Support Scam",
+    "risk_level": "medium",
+    "example": "This is Microsoft support. We detected a virus on your device linked to this number. Install this remote access app so our technician can fix it for you now.",
+    "description": "Fake tech support claiming to have detected a problem on the victim's device, asking to install remote access software that is then used to steal data or money."
+  },
+  {
+    "id": "sc014",
+    "category": "Fake Delivery Notification",
+    "risk_level": "medium",
+    "example": "Your order could not be delivered due to an incomplete address. Update your details within 24 hours here: [link] or the order will be cancelled.",
+    "description": "Fake shipping or delivery failure notices with a link to a phishing page that harvests personal and payment details."
+  },
+  {
+    "id": "sc015",
+    "category": "Group Invite Spam",
+    "risk_level": "low",
+    "example": "You have been added to 'Earn Daily 5000' group. Join now and share with 5 friends to unlock the earning method!",
+    "description": "Unsolicited addition to promotional or 'earn money fast' groups that rely on virality and vague promises rather than any real product or service."
+  },
+  {
+    "id": "sc016",
+    "category": "Charity / Disaster Relief Scam",
+    "risk_level": "medium",
+    "example": "Urgent: Flood victims need your help. Donate any amount to this UPI ID immediately to save lives. Share this message to help more people.",
+    "description": "Emotional appeals following real disasters, directing donations to a personal UPI ID or account with no verifiable charity behind it."
+  }
+]

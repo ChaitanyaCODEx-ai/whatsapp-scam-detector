@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Scam Shield · WhatsApp Safety Assistant</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+</head>
+<body>
+
+  <div class="phone">
+
+    <header class="wa-header">
+      <button class="icon-btn back-btn" aria-label="Back">&#8592;</button>
+      <div class="avatar">🛡️</div>
+      <div class="header-text">
+        <div class="contact-name">Scam Shield</div>
+        <div class="contact-status" id="contact-status">
+          <span class="dot"></span> AI safety assistant
+        </div>
+      </div>
+      <button class="icon-btn theme-btn" id="theme-toggle" aria-label="Toggle theme">🌙</button>
+    </header>
+
+    <main class="chat-area" id="chat-area">
+      <div class="date-chip"><span>TODAY</span></div>
+
+      <div class="bubble bubble-in">
+        Hi! I'm Scam Shield 🛡️ Paste any WhatsApp message below and I'll check it for
+        scams, spam, and privacy risks — right on this device.
+        <span class="bubble-time">9:41 AM</span>
+      </div>
+
+      <div class="bubble bubble-in" id="mode-banner" style="display:none;">
+        ⚙️ Running in offline heuristic mode — add a Gemini API key to enable full AI reasoning.
+        <span class="bubble-time">9:41 AM</span>
+      </div>
+    </main>
+
+    <form class="composer" id="composer">
+      <textarea
+        id="message-input"
+        class="composer-input"
+        placeholder="Paste a message to check…"
+        rows="1"
+        maxlength="4000"
+        required
+      ></textarea>
+      <button type="submit" class="send-btn" id="send-btn" aria-label="Analyze message">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M2 21l21-9L2 3v7l15 2-15 2z"/></svg>
+      </button>
+    </form>
+
+  </div>
+
+  <script id="page-data" type="application/json">{"geminiLive": {{ gemini_live | tojson }}}</script>
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
