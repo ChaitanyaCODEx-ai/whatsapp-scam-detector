@@ -4,5 +4,5 @@ __pycache__/
 .venv/
 venv/
 .DS_Store
-
-echo tempCodeRunnerFile.py >> .gitignore
+tempCodeRunnerFile.py
+echo tempCodeRunnerFile.py >> .gitignoretempCodeRunnerFile.py 
